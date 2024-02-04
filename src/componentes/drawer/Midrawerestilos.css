@@ -1,0 +1,52 @@
+ 
+/* Clases Propias */
+.divappdrawer  {
+/*    background: linear-gradient(0deg,#1a237e, rgb(124, 172, 235) 40%, white);*/
+    display: flex;
+    width: 100%;
+    padding:0px;
+    margin:0px;
+    font-family:'Roboto';
+    background-color: #1a237e;
+    color: white;
+    
+}
+
+.divfilasexternodrawer  {
+    display: flex;
+    flex-direction: row;
+    padding:0px;
+    width: 95%;
+    padding:0px;
+    margin:0px;
+}
+
+.divfilasinternoleftdrawer  {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start; 
+    justify-content: flex-start;
+    padding:0px;
+    width: 15%;
+    margin:0px;
+}
+.divfilasinternocenterdrawer  {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: center;
+    padding:0px;
+    width: 60%;
+    margin:0px;
+}
+
+.divfilasinternorightdrawer  {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content:flex-end;
+    padding:0px;
+    width: 25%;
+    margin:0px;
+}
+

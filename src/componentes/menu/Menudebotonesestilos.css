@@ -1,0 +1,126 @@
+ 
+/* Clases Propias */
+
+.divfilasexternomenudebotones  {
+    display: flex;
+    flex-direction: row;
+    padding:0px;
+    width: 100%;
+    padding:0px;
+    margin:0px;
+}
+
+.divlogops  {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: center;
+    padding:0px;
+    width: 60px;
+    margin:0px;
+    margin-top:10px;
+    margin-left:5px;
+    margin-right:0px;
+}
+
+.divlogonombreps  {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: center;
+    padding:0px;
+    width: 70px;
+    margin:0px;
+    margin-top:10px;
+    margin-left:0px;
+    margin-right:5px;
+}
+
+.diviconos  {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: center;
+    padding:0px;
+    width: 60px;
+    margin:0px;
+    margin-top:10px;
+    margin-left:0px;
+    margin-right:5px;
+}
+
+.divfilasinternoleftmenudebotones  {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start; 
+    justify-content: flex-start;
+    padding:0px;
+    width: 60px;
+    margin:0px;
+}
+.divfilasinternocentermenudebotones  {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: center;
+    padding:0px;
+    width: 100px;
+    margin:0px;
+}
+
+.divfilasinternorightmenudebotones  {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content:flex-end;
+    padding:0px;
+    width: 100%;
+    margin:0px;
+}
+
+.imagenlogops {
+    width: 40px;
+    height: 40px;
+}
+
+.botonmenudebotones {
+    background: rgb(124, 172, 235);
+    border: 0;
+    border-radius: 25px;
+    color: black;
+    height: 30px;
+    padding: 0 30px;
+    margin: 0px;
+    margin-top: 5px;
+    margin-bottom:5px;
+    width:max-content; 
+    font-weight:bold;
+    font-size:13px;
+}
+
+.botonmenudebotones:hover {
+  background: #1a237e;
+  color: white;
+}
+  
+
+/* Móviles en horizontal o tablets en vertical*/
+@media (min-width: 667px) { 
+
+    .divfilasexternomenudebotones  {
+        width: 480px;
+    }
+        .divlogops  {
+        margin-top:0px;
+    }
+    
+    .divlogonombreps  {
+        margin-top:0px;
+    }
+
+    .diviconos  {
+        margin-top:0px;
+    }
+    
+}
+

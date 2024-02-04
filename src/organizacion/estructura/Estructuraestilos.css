@@ -1,0 +1,202 @@
+ 
+/* Clases Propias */
+
+.divfilasexternoestructura  {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 10px;
+    min-height: calc(100vh - 195px);
+    max-height: calc(100vh - 195px);
+/*    overflow: hidden;
+    background-color: #1565c0;
+    border-radius: 5px;
+    border: 1px solid #e0e0e0;
+
+
+*/
+    width: calc(100% - 20px);
+    background-color: white;
+}
+
+    /* Cards*/
+
+/* Cards*/
+
+.divestructuracard {
+    display: flex;
+    flex-direction: column;
+    width:95%;
+    background: linear-gradient(45deg,  #fff 80%, #eeeeee 90%);
+    color:black;
+    margin: 0px;
+    padding: 0px;
+    margin-top:15px;
+    border: 1px solid blue;
+    /*  background: linear-gradient(to right, #dbf5e5, #e0e0e0 40%, #fafafa);*/
+}
+
+.divestructuracard:nth-child(even){
+    color:blue;
+    background: linear-gradient(45deg,  #fff 80%, #eeeeee 90%);
+ }
+
+ .divestructuracardarriba {
+    margin: 0px;
+    padding: 0px;
+    margin-bottom:5px;
+    font-size:14px;
+}
+
+.divestructuracardabajo {
+    margin: 0px;
+    padding: 0px;
+    font-size:14px;
+}
+
+ .divestructuracard {
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    color:black;
+    margin: 0px;
+    padding: 0px;
+    margin-top:15px;
+ /*  background: linear-gradient(to right, #dbf5e5, #e0e0e0 40%, #fafafa);*/
+
+}
+
+.divestructuracard:nth-child(even){
+    color: black;
+ }
+
+ .divestructuracardizquierdo {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    width: 50px;
+    height: 50px;
+}
+.divestructuracardderecho {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    margin-left: 5px;
+    padding: 0px;
+    height: 50px;
+}
+
+.divestructuracardarriba {
+    margin: 0px;
+    padding: 0px;
+    font-size:12px;
+    height: 25px;
+}
+
+.divestructuracardabajo {
+    margin: 0px;
+    padding: 0px;
+    font-size:12px;
+    height: 25px;
+}
+
+.imagenestructura {
+    margin: 0px;
+    padding: 0px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.parrafoliderestructura {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto';
+    font-weight: bold;
+}
+
+.parrafonombreestructura {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto';
+color:gray;
+}
+
+.divtituloestructura  {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding:0px;
+    margin:0px;
+    height:20px;
+    margin-bottom:5px;
+    width: 100%;
+    color:blue;
+    font-size:13px;
+}
+
+.divparrafotituloestructura  {
+    padding:0px;
+    width: 100%;
+    margin:0px;
+}
+.parrafotituloestructura {
+    padding: 0px;
+    margin: 0px;
+    margin-left: 10px;
+    font-family: 'Roboto';
+    font-weight: bold;
+}
+
+.divexternoiconosestructura  {
+    padding:0px;
+    margin:0px;
+    width: 100%;
+    border-top: 1px solid #e0e0e0;
+}
+.divinternoiconosestructura  {
+    display: flex;
+    flex-direction: row;
+    justify-content:center; 
+    align-items: center;
+    padding:0px;
+    width: 100%;
+    margin:0px;
+    margin-top:5px;
+    background-color: white;
+    color: gray;
+
+}
+
+.iconoestructura  {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: center;
+    padding:0px;
+    width: 120px;
+    margin:0px;
+    margin-left:5px;
+    margin-right:5px;
+    font-size:12px;
+    border-radius: 5px;
+ }
+
+.iconoestructura:hover {
+    color: black;
+    background-color: gainsboro;
+ }
+
+
+
+@media (max-width: 667px) { 
+
+    .divfilasexternoestructura  {
+        min-height: calc(100vh - 315px);
+        max-height: calc(100vh - 315px);
+    }
+
+}

@@ -1,0 +1,84 @@
+ 
+/* Clases Propias */
+.divappbar  {
+/*    background: linear-gradient(0deg,#1a237e, rgb(124, 172, 235) 40%, white);*/
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    width: 100%;
+    padding:0px;
+    margin:0px;
+    font-family:'Roboto';
+    background-color: #1976d2;
+    color: white;
+    height: 60px;
+    box-shadow: 0px 1px 4px black;
+}
+
+.divfilasexternotoolbar  {
+    display: flex;
+    flex-direction: row;
+    padding:0px;
+    width: 100%;
+    padding:0px;
+    margin:0px;
+}
+
+.divfilasinternolefttoolbar  {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start; 
+    justify-content: flex-start;
+    padding:0px;
+    width: 50px;
+    margin:0px;
+}
+.divfilasinternocentertoolbar  {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: center;
+    padding:0px;
+/*    width: calc(98%-200+50+10+480);*/
+    width: calc(100%-755px);
+    margin:0px;
+}
+
+.divfilasinternorighttoolbar  {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content:end;
+    padding:0px;
+    width: 200px;
+    margin:0px;
+    margin-right:10px;
+}
+
+.parrafotitulobarra {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size:14px;
+}
+
+.parrafousuariobarra {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto';
+    font-size:12px;
+}
+
+
+/* Móviles en horizontal o tablets en vertical*/
+@media (max-width: 667px) { 
+
+    .divfilasinternocentertoolbar  {
+        width: calc(100%-285px);
+    }
+        
+}
+
+
+

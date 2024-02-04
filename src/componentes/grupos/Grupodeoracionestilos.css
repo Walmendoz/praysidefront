@@ -1,0 +1,169 @@
+ 
+/* Clases Propias */
+
+.divfilasexternogrupo  {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 10px;
+    min-height: calc(100vh - 195px);
+    max-height: calc(100vh - 195px);
+/*    overflow: hidden;
+    background-color: #1565c0;
+    border-radius: 5px;
+    border: 1px solid #e0e0e0;
+
+
+*/
+    width: calc(100% - 20px);
+    background-color: white;
+}
+
+    /* Cards*/
+
+ .divgrupocard {
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    color:black;
+    margin: 0px;
+    padding: 0px;
+    margin-top:15px;
+ /*  background: linear-gradient(to right, #dbf5e5, #e0e0e0 40%, #fafafa);*/
+
+}
+
+.divgrupocard:nth-child(even){
+    color: black;
+ }
+
+ .divgrupocardizquierdo {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    width: 50px;
+    height: 50px;
+}
+.divgrupocardderecho {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    margin-left: 5px;
+    padding: 0px;
+    height: 50px;
+}
+
+.divgrupocardarriba {
+    margin: 0px;
+    padding: 0px;
+    font-size:12px;
+    height: 25px;
+}
+
+.divgrupocardabajo {
+    margin: 0px;
+    padding: 0px;
+    font-size:12px;
+    height: 25px;
+}
+
+.imagengrupo {
+    margin: 0px;
+    padding: 0px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.parrafolidergrupo {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto';
+    font-weight: bold;
+}
+
+.parrafonombregrupo {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto';
+    color:gray;
+}
+
+.divtitulogrupo  {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding:0px;
+    margin:0px;
+    height:20px;
+    margin-bottom:5px;
+    width: 100%;
+    color:blue;
+    font-size:13px;
+}
+
+.divparrafotitulogrupo  {
+    padding:0px;
+    width: 100%;
+    margin:0px;
+}
+.parrafotitulogrupo {
+    padding: 0px;
+    margin: 0px;
+    margin-left: 10px;
+    font-family: 'Roboto';
+    font-weight: bold;
+}
+
+.divexternoiconosgrupo  {
+    padding:0px;
+    margin:0px;
+    width: 100%;
+    border-top: 1px solid #e0e0e0;
+}
+.divinternoiconosgrupo  {
+    display: flex;
+    flex-direction: row;
+    justify-content:center; 
+    align-items: center;
+    padding:0px;
+    width: 100%;
+    margin:0px;
+    margin-top:5px;
+    background-color: white;
+    color: gray;
+
+}
+
+.iconogrupo  {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: center;
+    padding:0px;
+    width: 180px;
+    margin:0px;
+    margin-left:5px;
+    margin-right:5px;
+    font-size:12px;
+    border-radius: 5px;
+ }
+
+.iconogrupo:hover {
+    color: black;
+    background-color: gainsboro;
+ }
+
+
+
+@media (max-width: 667px) { 
+
+    .divfilasexternogrupo  {
+        min-height: calc(100vh - 315px);
+        max-height: calc(100vh - 315px);
+    }
+
+}

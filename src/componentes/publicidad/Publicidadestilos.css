@@ -1,0 +1,99 @@
+ 
+/* Clases Propias */
+
+.divfilasexternopublicidad  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 5px;
+    min-height: calc(100vh - 150px);
+    max-height: calc(100vh - 150px);
+    /*min-height: 100vh;*/
+    }
+
+.divexternopublicidadhorizontal  {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    margin: 0px;
+    height: 80px;
+    width: 100%;
+    background-color: white;
+    /*min-height: 100vh;
+        border: 1px solid #e0e0e0;
+
+    */
+}
+    
+.divinternopublicidadhorizontal  {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    margin: 0px;
+    width: 50%;
+    height: 80px;
+    /*min-height: 100vh;*/
+    }
+    
+
+
+.imagenanunciante {
+    width: 97%;
+    height: 105px;
+    margin-bottom: 5px;
+}
+
+.imagenanunciantehorizontal {
+    width: 100%;
+    height: 80px;
+}
+
+
+.botonmenudebotones {
+    background: rgb(124, 172, 235);
+    border: 0;
+    border-radius: 25px;
+    color: black;
+    height: 30px;
+    padding: 0 30px;
+    margin: 0px;
+    margin-top: 5px;
+    margin-bottom:5px;
+    width:max-content; 
+    font-weight:bold;
+    font-size:13px;
+ 
+}
+
+.botonmenudebotones:hover {
+  background: #1a237e;
+  color: white;
+}
+  
+
+/* Cards*/
+.grupodeoracioncard {
+    margin-top:10px;
+    width:97%;
+    background: 'linear-gradient(45deg, #01579b 30%, #0288d1 90%)';
+    color:white;
+    font-size:13px;
+    border-style:solid;
+    border-width: 1px;
+    border-color: #0288d1;
+    box-shadow: 4px 4px 2px gray;
+}
+
+.grupodeoracioncard:nth-child(even){
+    color:blue;
+    background: linear-gradient(45deg,  #fff 80%, #eeeeee 90%);
+    border-color: #eeeeee;
+    box-shadow:4px 4px 2px gray;
+ }
